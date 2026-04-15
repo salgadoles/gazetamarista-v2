@@ -30,6 +30,10 @@
   flex: 1;
 }
 
+input::-webkit-input-placeholder { color: var(--color-surface-2-2); } /* Chrome/Safari */
+input:-ms-input-placeholder { color: var(--color-surface-2-2); }     /* IE */
+input::placeholder { color: var(--color-surface-2-2); }              /* padrão */
+
 .tagsRow {
   display: flex;
   flex-wrap: wrap;

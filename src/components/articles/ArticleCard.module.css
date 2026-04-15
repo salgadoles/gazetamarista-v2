@@ -167,7 +167,7 @@
 
 .cardExcerpt {
   font-size: 0.875rem;
-  color: var(--color-text-muted);
+  color: var(--color-surface-2-2);
   line-height: 1.55;
   margin-bottom: var(--space-md);
   display: -webkit-box;

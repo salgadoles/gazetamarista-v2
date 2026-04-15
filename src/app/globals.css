@@ -23,6 +23,7 @@
   --color-bg-alt: #ffffff;
   --color-surface: #007BB5;
   --color-surface-2: #e2f2fc;
+  --color-surface-2-2: #b0c8d6;
   --color-surface-3: #F0F5F8;
   --color-border: #e2f2fc;
   --color-border-light: #007BB5;
@@ -333,8 +334,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tag:hover, .tag.active {
-  background: var(--color-primary);
-  color: white;
+  background: var(--color-gold);
+  color: rgb(107, 57, 0);
   border-color: var(--color-primary);
 }
 
